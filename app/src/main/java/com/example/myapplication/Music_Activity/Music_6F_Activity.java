@@ -1,6 +1,7 @@
 package com.example.myapplication.Music_Activity;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -437,6 +438,8 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 450,450,635); //y 좌표
                         animation3.setDuration(1800);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
 
                 fl1.setVisibility(View.VISIBLE);
@@ -478,6 +481,8 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 450,450,635); //y 좌표
                         animation3.setDuration(1800);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.VISIBLE);
@@ -520,6 +525,9 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 450,635); //y 좌표
                         animation3.setDuration(1500);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.VISIBLE);
@@ -562,6 +570,8 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 450,635);
                         animation3.setDuration(1500);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -603,6 +613,9 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  480,480,635);
                         animation3.setDuration(1800);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -643,6 +656,8 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 480,480,635);
                         animation3.setDuration(1500);
                       animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -684,6 +699,8 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 300,300);
                         animation3.setDuration(1500);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
 
                 fl1.setVisibility(View.GONE);
@@ -726,6 +743,9 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 480,300,300);
                         animation3.setDuration(1700);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -766,6 +786,9 @@ public class Music_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 600,300,300);
                         animation3.setDuration(1800);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);

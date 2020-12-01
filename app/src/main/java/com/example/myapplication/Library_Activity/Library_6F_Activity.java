@@ -1,6 +1,7 @@
 package com.example.myapplication.Library_Activity;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -197,6 +198,9 @@ public class Library_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 480,480); //y 좌표
                         animation3.setDuration(1500);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.VISIBLE);
                 fl2.setVisibility(View.GONE);
                 flf.setVisibility(View.GONE);
@@ -226,6 +230,9 @@ public class Library_6F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  400,620,620); //y 좌표
                         animation3.setDuration(1800);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.VISIBLE);
                 flf.setVisibility(View.GONE);

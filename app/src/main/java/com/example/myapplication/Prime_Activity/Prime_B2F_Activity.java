@@ -1,6 +1,7 @@
 package com.example.myapplication.Prime_Activity;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -776,6 +777,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 660, 660); //y 좌표
                 animation3.setDuration(1500);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.VISIBLE);
                 fl2.setVisibility(View.GONE);
@@ -839,6 +842,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  660, 660); //y 좌표
                 animation3.setDuration(1600);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.VISIBLE);
@@ -902,6 +907,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  660, 660); //y 좌표
                 animation3.setDuration(1300);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -965,6 +972,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  660, 660);
                 animation3.setDuration(1000);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1028,6 +1037,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  660, 660);
                 animation3.setDuration(1000);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1091,6 +1102,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 600, 660);
                 animation3.setDuration(1100);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1154,6 +1167,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 600, 660, 660);
                 animation3.setDuration(1300);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1217,6 +1232,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 660, 660);
                 animation3.setDuration(1500);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1280,6 +1297,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 730, 730, 590);
                 animation3.setDuration(1800);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1343,6 +1362,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 700, 730, 730, 590);
                 animation3.setDuration(1800);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1406,6 +1427,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 610, 730, 730, 590);
                 animation3.setDuration(2000);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1469,6 +1492,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 550, 300, 300);
                 animation3.setDuration(1800);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1532,6 +1557,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 480, 300, 300);
                 animation3.setDuration(1800);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1595,6 +1622,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 420, 300, 300);
                 animation3.setDuration(1500);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1658,6 +1687,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 360, 300, 300);
                 animation3.setDuration(1300);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1721,6 +1752,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 320, 320, 270);
                 animation3.setDuration(1000);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1784,6 +1817,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 350, 270);
                 animation3.setDuration(1000);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1847,6 +1882,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 450, 300, 300);
                 animation3.setDuration(1500);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1910,6 +1947,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 730, 730, 590);
                 animation3.setDuration(1600);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -1972,6 +2011,8 @@ public class Prime_B2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 520, 520, 660, 660);
                 animation3.setDuration(1900);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);

@@ -1,6 +1,7 @@
 package com.example.myapplication.Art_Activity;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -541,7 +542,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 520,460,460,610,610); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.VISIBLE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -588,7 +590,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 460,460,610,610); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.VISIBLE);
                 fl3.setVisibility(View.GONE);
@@ -635,7 +638,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 440,460,460,460,610,610); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.VISIBLE);
@@ -682,7 +686,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 440,460,460,610,610); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -729,7 +734,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 440,610,610); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -776,7 +782,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 440,510); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -823,7 +830,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 440,460,460,510); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -870,7 +878,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 440,460,460,510); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -917,7 +926,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 400,460,460,510); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -964,7 +974,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 480,460,460,510); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -1011,7 +1022,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 480,460,460,510); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -1058,7 +1070,8 @@ public class Art_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 690,690,460,460,510); //y 좌표
                 animation3.setDuration(1800);
                 animation3.start();
-
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);

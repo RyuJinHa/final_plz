@@ -1,6 +1,7 @@
 package com.example.myapplication.Rena_Activity;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -139,7 +140,7 @@ public class Rena_2F_Activity extends AppCompatActivity {
             MyPaint.setStrokeWidth(6f);
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
-            MyPaint.setColor(Color.GREEN);
+
 
             Path path = new Path();
             path.moveTo(1000,550);
@@ -343,6 +344,8 @@ public class Rena_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 500, 500, 800, 800, 250); //y 좌표
                 animation3.setDuration(2300);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.VISIBLE);
                 fl2.setVisibility(View.GONE);
@@ -377,6 +380,8 @@ public class Rena_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 220, 220, 800, 800, 250); //y 좌표
                 animation3.setDuration(2500);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.VISIBLE);
@@ -410,6 +415,8 @@ public class Rena_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 300, 500, 500, 800, 800, 250); //y 좌표
                 animation3.setDuration(2700);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -443,6 +450,8 @@ public class Rena_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 350, 350, 500, 500, 800, 800, 250); //y 좌표
                 animation3.setDuration(2700);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -476,6 +485,8 @@ public class Rena_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 570, 570, 500, 500, 800, 800, 250); //y 좌표
                 animation3.setDuration(2700);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -509,6 +520,8 @@ public class Rena_2F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 740, 740, 500, 500, 800, 800, 250); //y 좌표
                 animation3.setDuration(2500);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);

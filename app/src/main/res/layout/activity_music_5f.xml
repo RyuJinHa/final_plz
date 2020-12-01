@@ -21,9 +21,11 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="569dp"
+            android:layout_width="561dp"
             android:layout_height="wrap_content"
-            android:text="현재 위치하고 계신 강의실을 클릭하면 비상구까지의 최단경로를 안내해드립니다."
+            android:fontFamily="@font/nanum_r"
+            android:text="            현재 위치하고 계신 강의실을 클릭하면 비상구까지의 최단경로를 안내해드립니다."
+            android:textColor="#ffffff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

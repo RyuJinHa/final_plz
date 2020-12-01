@@ -199,7 +199,7 @@ public class Science_5F_Activity extends AppCompatActivity {
         moving_515();
         moving_551();
         moving_553();
-        moving_556();
+        moving_555();
         moving_556();
         moving_558();
         moving_559();
@@ -223,11 +223,11 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(1130, 370);
-            path.lineTo(930, 370);
+            path.moveTo(1130, 340);
+            path.lineTo(980, 340);
+            path.lineTo(980, 320);
             path.lineTo(930, 320);
-            path.lineTo(880, 320);
-            path.lineTo(880, 280);
+            path.lineTo(930, 280);
 
 
             canvas.drawPath(path, MyPaint);
@@ -251,11 +251,11 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(1280, 370);
-            path.lineTo(1430, 370);
-            path.lineTo(1430, 320);
-            path.lineTo(1480, 320);
-            path.lineTo(1480, 280);
+            path.moveTo(1310, 340);
+            path.lineTo(1460, 340);
+            path.lineTo(1460, 320);
+            path.lineTo(1510, 320);
+            path.lineTo(1510, 280);
 
 
             canvas.drawPath(path, MyPaint);
@@ -277,9 +277,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(1290, 350);
-            path.lineTo(1450, 350);
-            path.lineTo(1450, 280);
+            path.moveTo(1320, 350);
+            path.lineTo(1510, 350);
+            path.lineTo(1510, 280);
 
 
             canvas.drawPath(path, MyPaint);
@@ -302,11 +302,11 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(1130, 370);
-            path.lineTo(930, 370);
+            path.moveTo(1130, 340);
+            path.lineTo(980, 340);
+            path.lineTo(980, 320);
             path.lineTo(930, 320);
-            path.lineTo(880, 320);
-            path.lineTo(880, 280);
+            path.lineTo(930, 280);
             canvas.drawPath(path, MyPaint);
         }
     }
@@ -326,9 +326,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(710, 330);
-            path.lineTo(880, 330);
-            path.lineTo(880, 280);
+            path.moveTo(710, 310);
+            path.lineTo(910, 310);
+            path.lineTo(910, 280);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -350,7 +350,7 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(370, 330);
+            path.moveTo(400, 330);
             path.lineTo(280, 330);
             path.lineTo(280, 380);
 
@@ -376,8 +376,8 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(280, 350);
-            path.lineTo(280, 380);
+            path.moveTo(310, 350);
+            path.lineTo(310, 380);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -421,9 +421,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(710, 350);
-            path.lineTo(880, 350);
-            path.lineTo(880, 280);
+            path.moveTo(710, 320);
+            path.lineTo(910, 320);
+            path.lineTo(910, 280);
 
 
 
@@ -448,8 +448,8 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(880, 380);
-            path.lineTo(880, 280);
+            path.moveTo(910, 380);
+            path.lineTo(910, 280);
 
 
 
@@ -473,8 +473,8 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(1500, 650);
-            path.lineTo(1500, 260);
+            path.moveTo(1560, 630);
+            path.lineTo(1560, 260);
 
 
             canvas.drawPath(path, MyPaint);
@@ -497,9 +497,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(1500, 780);
-            path.lineTo(1500, 870);
-            path.lineTo(1550, 870);
+            path.moveTo(1580, 790);
+            path.lineTo(1580, 890);
+            path.lineTo(1620, 890);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -522,9 +522,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(1530, 780);
-            path.lineTo(1530, 870);
-            path.lineTo(1550, 870);
+            path.moveTo(1580, 790);
+            path.lineTo(1580, 890);
+            path.lineTo(1620, 890);
 
 
 
@@ -549,9 +549,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(1530, 730);
-            path.lineTo(1530, 870);
-            path.lineTo(1550, 870);
+            path.moveTo(1600, 790);
+            path.lineTo(1600, 890);
+            path.lineTo(1620, 890);
 
 
             canvas.drawPath(path, MyPaint);
@@ -574,8 +574,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(1520, 550);
-            path.lineTo(1520, 260);
+            path.moveTo(1560, 630);
+            path.lineTo(1560, 260);
+
 
             canvas.drawPath(path, MyPaint);
         }
@@ -597,8 +598,9 @@ public class Science_5F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(1520, 400);
-            path.lineTo(1520, 260);
+            path.moveTo(1560, 380);
+            path.lineTo(1560, 260);
+
 
             canvas.drawPath(path, MyPaint);
         }
@@ -621,14 +623,15 @@ public class Science_5F_Activity extends AppCompatActivity {
             Path path = new Path();
 
             path.moveTo(370, 360);
-            path.lineTo(420, 330);
-            path.lineTo(940, 330);
-            path.lineTo(940, 360);
+            path.lineTo(370, 310);
+            path.lineTo(420, 310);
+            path.lineTo(940, 310);
+            path.lineTo(940, 340);
 
-            path.moveTo(940, 360);
-            path.lineTo(1520, 360);
-            path.lineTo(1520, 1100);
-            path.lineTo(1540, 1100);
+            path.moveTo(940, 340);
+            path.lineTo(1580, 340);
+            path.lineTo(1580, 1800);
+
             canvas.drawPath(path, MyPaint);
         }
     }
@@ -667,6 +670,7 @@ public class Science_5F_Activity extends AppCompatActivity {
                 animation3.start();
                 animation1.setRepeatCount(ValueAnimator.REVERSE);
                 animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.VISIBLE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);

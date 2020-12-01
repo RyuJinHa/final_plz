@@ -1,6 +1,7 @@
 package com.example.myapplication.Rena_Activity;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -188,6 +189,8 @@ public class Rena_1F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 500, 500, 570); //y 좌표
                 animation3.setDuration(1900);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.VISIBLE);
                 fl2.setVisibility(View.GONE);
@@ -214,6 +217,8 @@ public class Rena_1F_Activity extends AppCompatActivity {
                 ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 570, 500, 500, 570); //y 좌표
                 animation3.setDuration(1900);
                 animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.VISIBLE);

@@ -1,6 +1,7 @@
 package com.example.myapplication.Library_Activity;
 
 import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -262,6 +263,9 @@ public class Library_3F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY", 400,400); //y 좌표
                         animation3.setDuration(1500);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.VISIBLE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);
@@ -293,6 +297,9 @@ public class Library_3F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  500,420,420); //y 좌표
                         animation3.setDuration(1600);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.VISIBLE);
                 fl3.setVisibility(View.GONE);
@@ -322,6 +329,8 @@ public class Library_3F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  860,860); //y 좌표
                         animation3.setDuration(1600);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
 
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
@@ -353,6 +362,9 @@ public class Library_3F_Activity extends AppCompatActivity {
                         ObjectAnimator animation3 = ObjectAnimator.ofFloat(iv, "translationY",  360,420); //y 좌표
                         animation3.setDuration(1800);
                         animation3.start();
+                animation1.setRepeatCount(ValueAnimator.REVERSE);
+                animation3.setRepeatCount(ValueAnimator.REVERSE);
+
                 fl1.setVisibility(View.GONE);
                 fl2.setVisibility(View.GONE);
                 fl3.setVisibility(View.GONE);

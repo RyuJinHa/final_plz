@@ -159,8 +159,8 @@ public class Science_1F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(680, 400);
-            path.lineTo(680, 250);
+            path.moveTo(600, 380);
+            path.lineTo(600, 250);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -180,9 +180,9 @@ public class Science_1F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
 
-            path.moveTo(1050, 670);
-            path.lineTo(1350, 670);
-            path.lineTo(1350, 600);
+            path.moveTo(1050, 640);
+            path.lineTo(1320, 640);
+            path.lineTo(1320, 600);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -202,9 +202,9 @@ public class Science_1F_Activity extends AppCompatActivity {
             MyPaint.setStyle(Paint.Style.STROKE);
             MyPaint.setColor(Color.parseColor("#FF9090"));
             Path path = new Path();
-            path.moveTo(950, 670);
-            path.lineTo(750, 670);
-            path.lineTo(750, 600);
+            path.moveTo(930, 650);
+            path.lineTo(710, 650);
+            path.lineTo(710, 600);
 
             canvas.drawPath(path, MyPaint);
         }
@@ -271,8 +271,8 @@ public class Science_1F_Activity extends AppCompatActivity {
 
             Path path = new Path();
             path.moveTo(600, 670);
-            path.lineTo(740, 670);
-            path.lineTo(740, 590);
+            path.lineTo(700, 670);
+            path.lineTo(700, 590);
             canvas.drawPath(path, MyPaint);
         }
     } //152
@@ -314,8 +314,8 @@ public class Science_1F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(530, 775);
-            path.lineTo(530, 650);
+            path.moveTo(450, 775);
+            path.lineTo(450, 650);
             path.lineTo(365, 650);
 
             canvas.drawPath(path, MyPaint);
@@ -337,20 +337,20 @@ public class Science_1F_Activity extends AppCompatActivity {
             MyPaint.setColor(Color.parseColor("#FF9090"));
 
             Path path = new Path();
-            path.moveTo(680, 400);
-            path.lineTo(680, 250);
+            path.moveTo(600, 400);
+            path.lineTo(600, 250);
 
-            path.moveTo(750, 600);
-            path.lineTo(750, 670);
-            path.lineTo(1350, 670);
-            path.lineTo(1350, 600);
-            path.lineTo(1350, 680);
+            path.moveTo(700, 600);
+            path.lineTo(700, 650);
+            path.lineTo(1330, 650);
+            path.lineTo(1330, 600);
+            path.lineTo(1330, 680);
             path.lineTo(1850, 680);
             path.lineTo(1850, 600);
 
             path.moveTo(370, 650);
-            path.lineTo(530, 650);
-            path.lineTo(530, 805);
+            path.lineTo(460, 650);
+            path.lineTo(460, 805);
             path.lineTo(800, 805);
             canvas.drawPath(path, MyPaint);
         }
@@ -372,7 +372,7 @@ public class Science_1F_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 625,625); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 570,570); //x 좌표
                 animation1.setDuration(1300);
                 animation1.start();
 
@@ -408,7 +408,7 @@ public class Science_1F_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 625,625); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 570,570); //x 좌표
                 animation1.setDuration(1000);
                 animation1.start();
 
@@ -444,7 +444,7 @@ public class Science_1F_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1000, 1300, 1300); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1000, 1280, 1280); //x 좌표
                 animation1.setDuration(1500);
                 animation1.start();
 
@@ -481,7 +481,7 @@ public class Science_1F_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 900, 700, 700); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 900, 680, 680); //x 좌표
                 animation1.setDuration(1500);
                 animation1.start();
 
@@ -555,7 +555,7 @@ public class Science_1F_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 900, 700, 700); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 900, 680,680); //x 좌표
                 animation1.setDuration(1500);
                 animation1.start();
 
@@ -593,7 +593,7 @@ public class Science_1F_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1500, 1300, 1300); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 1500, 1280, 1280); //x 좌표
                 animation1.setDuration(1500);
                 animation1.start();
 
@@ -744,7 +744,7 @@ public class Science_1F_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 600, 675, 675); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 600, 660, 660); //x 좌표
                 animation1.setDuration(1500);
                 animation1.start();
 
@@ -816,7 +816,7 @@ public class Science_1F_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 475, 475, 315); //x 좌표
+                ObjectAnimator animation1 = ObjectAnimator.ofFloat(iv, "translationX", 400, 400, 315); //x 좌표
                 animation1.setDuration(1500);
                 animation1.start();
 
