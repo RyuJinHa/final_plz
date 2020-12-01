@@ -92,7 +92,7 @@ public class Med_3F_Activity extends AppCompatActivity {
 
         final FrameLayout fl11 = (FrameLayout)findViewById(R.id.fl11);
         FL11View fl11view= new FL11View(fl11.getContext());
-        fl11.addView(fl10view);
+        fl11.addView(fl11view);
         fl11.setVisibility(View.GONE);
 
 

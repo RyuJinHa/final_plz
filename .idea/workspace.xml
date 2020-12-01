@@ -228,10 +228,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606785078001">
+    <state x="676" y="162" key="#app" timestamp="1606789372269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606785078001" />
+    <state x="676" y="162" key="#app/0.0.1920.1040@0.0.1920.1040" timestamp="1606789372269" />
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606789368827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606789368827" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
